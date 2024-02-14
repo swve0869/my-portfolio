@@ -18,7 +18,7 @@ const Card = ({ imageSrc, title, description, githubLink }) => {
 }; export default Card;
 */
 
-const Card = ({ imageSrc, title, description, githubLink, videoLink }) => {
+const Card = ({ imageSrc, title, description, githubLink }:{imageSrc:any,title:any, description:any, githubLink:any}) => {
     return (
       <div className="max-w-md m-4 mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl card transform transition-transform duration-300 ease-in-out hover:scale-110">
         <div className="md:flex">
@@ -36,7 +36,5 @@ const Card = ({ imageSrc, title, description, githubLink, videoLink }) => {
         </div>
       </div>
     );
-  };
-  
-  export default Card;
+  }; export default Card;
   
