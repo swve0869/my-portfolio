@@ -25,11 +25,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={roboto.className}>
-        <Navbar />
+      <body className={`${roboto.className} min-h-screen bg-fixed background-image:https://www.pexels.com/photo/mountains-covered-with-snow-1785493/` }>
+      <Navbar />
         {children}
+      
       </body>
     </html>
   );
 }
+
+/*
+<div
+       className="bg-fixed"
+       style ={{backgroundImage: "url('https://images.pexels.com/photos/1785493/pexels-photo-1785493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"}}>
+</div>
+*/ 
  

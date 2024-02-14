@@ -4,9 +4,10 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 210, 187, 109;
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -30,4 +31,12 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.1); /* Change the scale factor as desired */
 }
