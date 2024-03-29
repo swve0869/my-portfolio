@@ -16,7 +16,7 @@ const Mebox = ({imgsize,imgname}:{imgsize:any,imgname:any}) => {
         </div>
 
         <div className="w-1/2">
-            <h2 className="text-6xl font-semibold animate-bounce">Hi, I'm Swami!</h2>
+            <h2 className="text-6xl font-semibold animate-bounce">Hi, I&apos;m Swami!</h2>
             <hr className="border-t-2 border-gray-300 mb-4 mt-4"></hr>
             <h2 className="text-l font-thin">a Computer Science Student from the University of Colorado Boulder. I love software engineering and its applications. This is my portfolio site built from scratch using React, NextJs and is hosted on Vercel.</h2>
 
